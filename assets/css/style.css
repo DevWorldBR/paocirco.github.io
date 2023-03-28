@@ -146,10 +146,7 @@ main {
     color: var(--font-color-2);
 
     margin: 2rem;
-    font-size: 1rem;
-    text-align: left;
-    word-spacing: 0.2rem;
-    line-height: 1.2rem;
+    font-size: 1.1rem;
   }
 }
 
