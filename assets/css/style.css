@@ -1,0 +1,150 @@
+:root {
+  --bg-color-1: #090E34;
+  --bg-color-2: #0B113A;
+  --bg-color-3: #0D133E;
+  --bg-color-header: #16225bf6;
+
+  --card-color: #1D2144;
+  --bg-logo: #4825d4;
+  --button-color: #3E5BD4;
+  --input-color: #242B51;
+  --transparent: #ffffff00;
+  --star: #f3e51a;
+
+  --font-color-1: #FFFFFF;
+  --font-color-2: #DFE0E5;
+  --font-color-3: #949BB0;
+  --font-color-4: #8A91A7;
+}
+
+body { background: var(--bg-color-1); }
+
+/********************************************************/
+
+header {
+  height: 5rem;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+
+  background: var(--bg-color-header);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+li, a {
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  color: var(--font-color-1);
+  text-decoration: none;
+  margin: 1rem;
+  font-size: 1rem;
+  transition: 1s all;
+}
+
+a:hover { color: var(--font-color-3); }
+
+/********************************************************/
+
+main {
+  background: var(--bg-color-1);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.oqueera h1 {
+  color: var(--font-color-1);
+
+  margin: 10rem 0 0 0;
+  font-size: 3rem;
+}
+
+.oqueera p {
+  color: var(--font-color-2);
+
+  margin: 2rem;
+  font-size: 1.1rem;
+}
+
+.objetivo h1 {
+  color: var(--font-color-1);
+
+  margin: 10rem 0 0 0;
+  font-size: 3rem;
+}
+
+.objetivo p {
+  color: var(--font-color-2);
+
+  margin: 2rem;
+  font-size: 1.1rem;
+}
+
+.craicaoooo h1 {
+  color: var(--font-color-1);
+
+  margin: 10rem 0 0 0;
+  font-size: 3rem;
+}
+
+.craicaoooo p {
+  color: var(--font-color-2);
+
+  margin: 2rem;
+  font-size: 1.1rem;
+}
+
+.porque h1 {
+  color: var(--font-color-1);
+
+  margin: 10rem 0 0 0;
+  font-size: 3rem;
+}
+
+.porque p {
+  color: var(--font-color-2);
+
+  margin: 2rem;
+  font-size: 1.1rem;
+}
+
+.resumo h1 {
+  color: var(--font-color-1);
+
+  margin: 10rem 0 0 0;
+  font-size: 3rem;
+}
+
+.resumo p {
+  color: var(--font-color-2);
+
+  margin: 2rem;
+  font-size: 1.1rem;
+  text-align: left;
+  word-spacing: 0.4rem;
+  line-height: 1.5rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 1rem; 
+}
